@@ -40,6 +40,8 @@ npm run build
 
 Publica el contingut de la carpeta `dist/` en qualsevol allotjament estàtic (GitHub Pages, Netlify, Vercel, Azure Static Web Apps, IIS, nginx…). Cal servir-lo per **HTTPS** (excepte a `localhost`).
 
+**GitHub Pages:** a *Settings → Pages → Source*, selecciona **GitHub Actions**. Cada `push` a `main` publica l'aplicació automàticament ([.github/workflows/deploy.yml](.github/workflows/deploy.yml)) a `https://<usuari>.github.io/<repositori>/`.
+
 ### On es desen les dades
 
 Els plafons i la biblioteca es desen al **navegador de cada usuari** (IndexedDB). No hi ha servidor: cada usuari té els seus propis plafons. Per fer còpies de seguretat o compartir-los, utilitza **Exportar JSON** / **Importar JSON**. Si s'esborren les dades del navegador, es perden els plafons.
@@ -82,6 +84,8 @@ npm run build
 
 Publica el contenido de la carpeta `dist/` en cualquier alojamiento estático (GitHub Pages, Netlify, Vercel, Azure Static Web Apps, IIS, nginx…). Debe servirse por **HTTPS** (excepto en `localhost`).
 
+**GitHub Pages:** en *Settings → Pages → Source*, selecciona **GitHub Actions**. Cada `push` a `main` publica la aplicación automáticamente ([.github/workflows/deploy.yml](.github/workflows/deploy.yml)) en `https://<usuario>.github.io/<repositorio>/`.
+
 ### Dónde se guardan los datos
 
 Los paneles y la biblioteca se guardan en el **navegador de cada usuario** (IndexedDB). No hay servidor: cada usuario tiene sus propios paneles. Para hacer copias de seguridad o compartirlos, usa **Exportar JSON** / **Importar JSON**. Si se borran los datos del navegador, se pierden los paneles.
@@ -123,6 +127,8 @@ npm run build
 ```
 
 Publish the contents of the `dist/` folder to any static host (GitHub Pages, Netlify, Vercel, Azure Static Web Apps, IIS, nginx…). It must be served over **HTTPS** (except on `localhost`).
+
+**GitHub Pages:** in *Settings → Pages → Source*, select **GitHub Actions**. Every `push` to `main` publishes the app automatically ([.github/workflows/deploy.yml](.github/workflows/deploy.yml)) at `https://<user>.github.io/<repository>/`.
 
 ### Where data is stored
 
